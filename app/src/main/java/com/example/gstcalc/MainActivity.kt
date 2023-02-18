@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         buttonView.setOnClickListener {
             val input = editText.text?.toString()?.toLong() ?: -1
             val en = switchCompat.isEnabled
-            val gstRate = if(!en) 1.08f else 1.09f
+            val gstRate = if(en) 1.09f else 1.08f
             val result = input * gstRate
 
             val df = DecimalFormat("#.##")
