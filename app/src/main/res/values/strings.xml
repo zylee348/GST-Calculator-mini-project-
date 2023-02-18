@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GST Calculator</string>
+    <string name="gst_calculator">GST Calculator</string>
+     <string name="result_text"> </string>
+</resources>
