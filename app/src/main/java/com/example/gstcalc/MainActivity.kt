@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
             resultTextView.textSize = 24f
             resultTextView.setTextColor(Color.DKGRAY)
             //only after onClick
-            Toast.makeText(baseContext, "CLick", Toast.LENGTH_LONG).show()
+            Toast.makeText(baseContext, "Click", Toast.LENGTH_LONG).show()
         }
     }
 }
